@@ -49,6 +49,7 @@ namespace Protractor_Net_Demo
         [TearDown]
         public void Teardown()
         {
+           // driver.Sleep();
             driver.Quit();
         }
     }
